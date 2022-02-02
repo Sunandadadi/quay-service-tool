@@ -68,6 +68,9 @@ objects:
     - name: http
       port: 80
       targetPort: 5000
+    - name: metrics
+      port: 80
+      targetPort: 5000
     selector:
       app: quayio-service-tool
 - apiVersion: v1
